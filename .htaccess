@@ -25,8 +25,8 @@ Options -Indexes
 
 # Hide a specific file
 <Files ~ "\.(env|json|config.js|md|gitignore|gitattributes|lock)$">
-    Order allow,deny
-    Deny from all
+
+Require all granted
 </Files>
 
 ## EXPIRES CACHING ##
